@@ -1,0 +1,671 @@
+[
+    {
+        "@context": "http://localhost:8000/omeka/api-context",
+        "@id": "http://localhost:8000/omeka/api/items/20",
+        "@type": ["o:Item", "olp:Sportif"],
+        "o:id": 20,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost:8000/omeka/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http://localhost:8000/omeka/api/resource_classes/114",
+            "o:id": 114
+        },
+        "o:resource_template": {
+            "@id": "http://localhost:8000/omeka/api/resource_templates/11",
+            "o:id": 11
+        },
+        "o:thumbnail": null,
+        "o:title": "Sportif1",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:30:58+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:30:58+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Sportif1"
+            }
+        ],
+        "olp:nameUser": [
+            {
+                "type": "literal",
+                "property_id": 199,
+                "property_label": "Nom du sportif",
+                "is_public": true,
+                "@value": "Marcell Jacobs"
+            }
+        ],
+        "olp:country": [
+            {
+                "type": "literal",
+                "property_id": 203,
+                "property_label": "Pays",
+                "is_public": true,
+                "@value": "IT"
+            }
+        ],
+        "@reverse": {
+            "olp:hasUser": [
+                {
+                    "@id": "http://localhost:8000/omeka/api/resources/27",
+                    "o:title": "Resultat1"
+                }
+            ]
+        }
+    },
+    {
+        "@context": "http://localhost:8000/omeka/api-context",
+        "@id": "http://localhost:8000/omeka/api/items/21",
+        "@type": ["o:Item", "olp:Sport"],
+        "o:id": 21,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost:8000/omeka/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http://localhost:8000/omeka/api/resource_classes/113",
+            "o:id": 113
+        },
+        "o:resource_template": {
+            "@id": "http://localhost:8000/omeka/api/resource_templates/10",
+            "o:id": 10
+        },
+        "o:thumbnail": null,
+        "o:title": "Sport1 Athlétisme",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:32:29+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:38:53+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Sport1 Athlétisme"
+            }
+        ],
+        "olp:name": [
+            {
+                "type": "literal",
+                "property_id": 198,
+                "property_label": "Nom sport",
+                "is_public": true,
+                "@value": "Athlétisme"
+            }
+        ],
+        "@reverse": {
+            "olp:hasSport": [
+                {
+                    "@id": "http://localhost:8000/omeka/api/resources/27",
+                    "o:title": "Resultat1"
+                }
+            ]
+        }
+    },
+    {
+        "@context": "http://localhost:8000/omeka/api-context",
+        "@id": "http://localhost:8000/omeka/api/items/22",
+        "@type": ["o:Item", "olp:Sportif"],
+        "o:id": 22,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost:8000/omeka/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http://localhost:8000/omeka/api/resource_classes/114",
+            "o:id": 114
+        },
+        "o:resource_template": {
+            "@id": "http://localhost:8000/omeka/api/resource_templates/11",
+            "o:id": 11
+        },
+        "o:thumbnail": null,
+        "o:title": "Filippo Turto IT",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:36:33+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:36:33+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Filippo Turto IT"
+            }
+        ],
+        "olp:nameUser": [
+            {
+                "type": "literal",
+                "property_id": 199,
+                "property_label": "Nom du sportif",
+                "is_public": true,
+                "@value": "Filippo Turto"
+            }
+        ],
+        "olp:country": [
+            {
+                "type": "literal",
+                "property_id": 203,
+                "property_label": "Pays",
+                "is_public": true,
+                "@value": "IT"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost:8000/omeka/api-context",
+        "@id": "http://localhost:8000/omeka/api/items/23",
+        "@type": ["o:Item", "olp:Sportif"],
+        "o:id": 23,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost:8000/omeka/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http://localhost:8000/omeka/api/resource_classes/114",
+            "o:id": 114
+        },
+        "o:resource_template": {
+            "@id": "http://localhost:8000/omeka/api/resource_templates/11",
+            "o:id": 11
+        },
+        "o:thumbnail": null,
+        "o:title": "Larissa Iapichino IT",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:37:55+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:37:55+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Larissa Iapichino IT"
+            }
+        ],
+        "olp:nameUser": [
+            {
+                "type": "literal",
+                "property_id": 199,
+                "property_label": "Nom du sportif",
+                "is_public": true,
+                "@value": "Larissa Iapichino"
+            }
+        ],
+        "olp:country": [
+            {
+                "type": "literal",
+                "property_id": 203,
+                "property_label": "Pays",
+                "is_public": true,
+                "@value": "IT"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost:8000/omeka/api-context",
+        "@id": "http://localhost:8000/omeka/api/items/24",
+        "@type": ["o:Item", "olp:Sportif"],
+        "o:id": 24,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost:8000/omeka/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http://localhost:8000/omeka/api/resource_classes/114",
+            "o:id": 114
+        },
+        "o:resource_template": {
+            "@id": "http://localhost:8000/omeka/api/resource_templates/11",
+            "o:id": 11
+        },
+        "o:thumbnail": null,
+        "o:title": "Marco Belinelli Basket IT",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:41:23+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:41:23+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Marco Belinelli Basket IT"
+            }
+        ],
+        "olp:nameUser": [
+            {
+                "type": "literal",
+                "property_id": 199,
+                "property_label": "Nom du sportif",
+                "is_public": true,
+                "@value": "Marco Belinelli"
+            }
+        ],
+        "olp:country": [
+            {
+                "type": "literal",
+                "property_id": 203,
+                "property_label": "Pays",
+                "is_public": true,
+                "@value": "IT"
+            }
+        ],
+        "@reverse": {
+            "olp:hasUser": [
+                {
+                    "@id": "http://localhost:8000/omeka/api/resources/28",
+                    "o:title": "Resultat2"
+                }
+            ]
+        }
+    },
+    {
+        "@context": "http://localhost:8000/omeka/api-context",
+        "@id": "http://localhost:8000/omeka/api/items/25",
+        "@type": ["o:Item", "olp:Sportif"],
+        "o:id": 25,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost:8000/omeka/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http://localhost:8000/omeka/api/resource_classes/114",
+            "o:id": 114
+        },
+        "o:resource_template": {
+            "@id": "http://localhost:8000/omeka/api/resource_templates/11",
+            "o:id": 11
+        },
+        "o:thumbnail": null,
+        "o:title": "Sportif5 Danilo Gallinari",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:42:51+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:42:51+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Sportif5 Danilo Gallinari"
+            }
+        ],
+        "olp:nameUser": [
+            {
+                "type": "literal",
+                "property_id": 199,
+                "property_label": "Nom du sportif",
+                "is_public": true,
+                "@value": "Danilo Gallinari"
+            }
+        ],
+        "olp:country": [
+            {
+                "type": "literal",
+                "property_id": 203,
+                "property_label": "Pays",
+                "is_public": true,
+                "@value": "IT"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost:8000/omeka/api-context",
+        "@id": "http://localhost:8000/omeka/api/items/26",
+        "@type": ["o:Item", "olp:Sport"],
+        "o:id": 26,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost:8000/omeka/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http://localhost:8000/omeka/api/resource_classes/113",
+            "o:id": 113
+        },
+        "o:resource_template": {
+            "@id": "http://localhost:8000/omeka/api/resource_templates/10",
+            "o:id": 10
+        },
+        "o:thumbnail": null,
+        "o:title": "Sport2 Basket",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:45:48+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:45:48+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Sport2 Basket"
+            }
+        ],
+        "olp:name": [
+            {
+                "type": "literal",
+                "property_id": 198,
+                "property_label": "Nom sport",
+                "is_public": true,
+                "@value": "Basket"
+            }
+        ],
+        "@reverse": {
+            "olp:hasSport": [
+                {
+                    "@id": "http://localhost:8000/omeka/api/resources/28",
+                    "o:title": "Resultat2"
+                }
+            ]
+        }
+    },
+    {
+        "@context": "http://localhost:8000/omeka/api-context",
+        "@id": "http://localhost:8000/omeka/api/items/27",
+        "@type": ["o:Item", "olp:Resultat"],
+        "o:id": 27,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost:8000/omeka/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http://localhost:8000/omeka/api/resource_classes/115",
+            "o:id": 115
+        },
+        "o:resource_template": {
+            "@id": "http://localhost:8000/omeka/api/resource_templates/12",
+            "o:id": 12
+        },
+        "o:thumbnail": null,
+        "o:title": "Resultat1",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:49:09+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:49:09+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Resultat1"
+            }
+        ],
+        "olp:hasSport": [
+            {
+                "type": "resource",
+                "property_id": 206,
+                "property_label": "A comme sport",
+                "is_public": true,
+                "@id": "http://localhost:8000/omeka/api/items/21",
+                "value_resource_id": 21,
+                "value_resource_name": "items",
+                "url": null,
+                "display_title": "Sport1 Athlétisme"
+            }
+        ],
+        "olp:hasUser": [
+            {
+                "type": "resource",
+                "property_id": 205,
+                "property_label": "A comme sportif",
+                "is_public": true,
+                "@id": "http://localhost:8000/omeka/api/items/20",
+                "value_resource_id": 20,
+                "value_resource_name": "items",
+                "url": null,
+                "display_title": "Sportif1"
+            }
+        ],
+        "olp:medal": [
+            {
+                "type": "literal",
+                "property_id": 204,
+                "property_label": "Médaille",
+                "is_public": true,
+                "@value": "Or"
+            }
+        ],
+        "olp:year": [
+            {
+                "type": "literal",
+                "property_id": 202,
+                "property_label": "Année",
+                "is_public": true,
+                "@value": "2024"
+            }
+        ],
+        "olp:rank": [
+            {
+                "type": "literal",
+                "property_id": 201,
+                "property_label": "rank",
+                "is_public": true,
+                "@value": "1"
+            }
+        ]
+    },
+    {
+        "@context": "http://localhost:8000/omeka/api-context",
+        "@id": "http://localhost:8000/omeka/api/items/28",
+        "@type": ["o:Item", "olp:Resultat"],
+        "o:id": 28,
+        "o:is_public": true,
+        "o:owner": {
+            "@id": "http://localhost:8000/omeka/api/users/1",
+            "o:id": 1
+        },
+        "o:resource_class": {
+            "@id": "http://localhost:8000/omeka/api/resource_classes/115",
+            "o:id": 115
+        },
+        "o:resource_template": {
+            "@id": "http://localhost:8000/omeka/api/resource_templates/12",
+            "o:id": 12
+        },
+        "o:thumbnail": null,
+        "o:title": "Resultat2",
+        "thumbnail_display_urls": {
+            "large": null,
+            "medium": null,
+            "square": null
+        },
+        "o:created": {
+            "@value": "2023-12-19T09:51:29+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:modified": {
+            "@value": "2023-12-19T09:51:29+00:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "o:primary_media": null,
+        "o:media": [],
+        "o:item_set": [],
+        "o:site": [],
+        "dcterms:title": [
+            {
+                "type": "literal",
+                "property_id": 1,
+                "property_label": "Title",
+                "is_public": true,
+                "@value": "Resultat2"
+            }
+        ],
+        "olp:hasSport": [
+            {
+                "type": "resource",
+                "property_id": 206,
+                "property_label": "A comme sport",
+                "is_public": true,
+                "@id": "http://localhost:8000/omeka/api/items/26",
+                "value_resource_id": 26,
+                "value_resource_name": "items",
+                "url": null,
+                "display_title": "Sport2 Basket"
+            }
+        ],
+        "olp:hasUser": [
+            {
+                "type": "resource",
+                "property_id": 205,
+                "property_label": "A comme sportif",
+                "is_public": true,
+                "@id": "http://localhost:8000/omeka/api/items/24",
+                "value_resource_id": 24,
+                "value_resource_name": "items",
+                "url": null,
+                "display_title": "Marco Belinelli Basket IT"
+            }
+        ],
+        "olp:medal": [
+            {
+                "type": "literal",
+                "property_id": 204,
+                "property_label": "Médaille",
+                "is_public": true,
+                "@value": "OR"
+            }
+        ],
+        "olp:year": [
+            {
+                "type": "literal",
+                "property_id": 202,
+                "property_label": "Année",
+                "is_public": true,
+                "@value": "2024"
+            }
+        ],
+        "olp:rank": [
+            {
+                "type": "literal",
+                "property_id": 201,
+                "property_label": "rank",
+                "is_public": true,
+                "@value": "1"
+            }
+        ]
+    }
+]
