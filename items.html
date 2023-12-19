@@ -26,7 +26,19 @@
         </div>
     </nav>
 
+    
     <div class="container mt-5">
+        <div class="input-group mb-3 mx-2 content-item-center">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Filtre les items</label>
+            </div>
+            <select class="select-items custom-select" id="inputGroupSelect01" onchange="filterItems()">
+                <option selected>Aucun filtre...</option>
+                <option value="sportifs">Sportifs</option>
+                <option value="sport">Sport</option>
+                <option value="result">Résultat</option>
+            </select>
+        </div>
         <div class="row">
         </div>
     </div>

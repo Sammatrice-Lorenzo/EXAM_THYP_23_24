@@ -57,4 +57,41 @@ function setInformations(row, items) {
         .text((item) => 'Identifiant ' + item['o:id'])
 }
 
-  
+async function filterItems() {
+    const optionSelected = d3.select('.select-items').property('value')
+
+    const items = await getData()
+    const itemsToShow = getItemsFiltered(optionSelected, items)
+
+    d3.select('.row').html('')
+
+    creationItemsInHtml(itemsToShow)
+}
+
+function filtersItemsByType(items, type) {
+    return items.filter((item) => item['@type'][1] === type)
+}
+
+function getItemsFiltered(optionSelected, items) {
+    let itemsFiltered = null
+
+    switch (optionSelected) {
+        case 'sportifs':
+            itemsFiltered = filtersItemsByType(items, 'olp:Sportif')
+            break;
+
+        case 'sport':
+            itemsFiltered = filtersItemsByType(items, 'olp:Sport')
+            break;
+
+        case 'result':
+            itemsFiltered = filtersItemsByType(items, 'olp:Resultat')
+            break;
+    
+        default:
+            itemsFiltered = items
+            break;
+    }
+
+    return itemsFiltered
+}
